@@ -1,0 +1,26 @@
+.header_logo {
+  display: flex;
+  max-width: 900px;
+  max-height: 90px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 35px 20px;
+}
+.button_header {
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  background-color: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  border-radius: 8px;
+  width: 64px;
+  height: 40px;
+  color: #868e96;
+}
+
+@media only screen and (min-width: 900px) {
+  .header_logo {
+    margin: 32px auto;
+    width: 100%;
+  }
+}

@@ -1,0 +1,67 @@
+.nav_financial {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #212529;
+  margin: 15px auto;
+}
+.ul_buttons {
+  display: flex;
+}
+.div_buttons > button {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #868e96;
+}
+.div_buttons > button:hover {
+  cursor: pointer;
+  background-color: #fd377e;
+  color: #fff;
+}
+
+.button_div {
+  height: 40px;
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.div_no_entries {
+  text-align: center;
+}
+.title_no_entries {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+  color: #868e96;
+}
+.no_logo {
+  width: 100%;
+}
+.figure_no_entries {
+  margin: 20px auto;
+}
+@media only screen and (min-width: 900px) {
+  .nav_financial {
+    width: 500px;
+    height: 0px;
+  }
+
+  .div_buttons > button {
+    margin-left: 15px;
+  }
+  .div_card {
+    order: 4;
+    width: 500px;
+
+    margin: -24% auto;
+  }
+}
